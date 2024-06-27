@@ -13,10 +13,7 @@ public class Mobile
 	private double price;
 	@Autowired
 	private Display display;
-	@Override
-	public String toString() {
-		return "Mobile [brand=" + brand + ", price=" + price + "]";
-	}
+
 
 
 	public Display getDisplay() {
